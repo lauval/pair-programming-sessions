@@ -1,4 +1,4 @@
-from main import *
+from main import count_even_nummbers    
 
 run_cases = [
     ([2, 5, 8, 11, 14], 3),
@@ -17,7 +17,7 @@ def test(input1, expected_output):
     print("---------------------------------")
     print(f"Input: {input1}")
     print("")
-    result = count_even_numbers(input1)
+    result = count_even_nummbers(input1)
     print(f"Expected: {expected_output}")
     print(f"Actual:   {result}")
     if result == expected_output:
