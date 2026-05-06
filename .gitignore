@@ -15,3 +15,5 @@ wheels/
 # Mac os artifacts
 *.DS_Store
 
+
+*.DS_Store
